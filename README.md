@@ -1,5 +1,4 @@
 # Drowsines-Detection-System
-Drowsiness Detection System
 
 A real-time computer vision based safety application that detects driver fatigue using facial landmark analysis. The system monitors eye movements through the Eye Aspect Ratio (EAR) method and triggers an audio alert when prolonged eye closure is detected.
 
