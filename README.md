@@ -4,7 +4,7 @@ A real-time computer vision based safety application that detects driver fatigue
 
 Built using Python, OpenCV, Dlib, SciPy, and Pygame, this project helps prevent accidents caused by drowsiness in drivers and workers by providing instant warnings.
 
-### *Features*
+### *Features*:
 
 Real-time face and eye detection
 
@@ -16,7 +16,25 @@ Works with webcam in live environment
 
 Lightweight and fast processing
 
-### *Technologies Used*
+
+### *Working Principle*:
+
+Webcam captures live video feed
+
+Face detection identifies user’s face
+
+Facial landmarks locate eye regions
+
+Eye Aspect Ratio (EAR) is calculated
+
+If EAR remains low → alarm is activated
+
+
+### *Installation*:
+
+pip install opencv-python dlib imutils pygame scipy numpy
+
+### *Technologies Used*:
 
 Python
 
@@ -30,10 +48,27 @@ Imutils
 
 Pygame
 
-### *Use Cases*
+### *Use Cases*:
 
 Driver safety systems
 
 Workplace fatigue monitoring
 
 Research & computer vision learning projects
+
+
+
+### *Applications*:
+
+Driver safety monitoring
+
+Workplace fatigue detection
+
+Smart surveillance systems
+
+AI & computer vision learning projects
+
+
+### *License*:
+
+This project is licensed under the MIT License.
